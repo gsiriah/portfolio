@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: dodgerblue;
+    color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links.active {
+    display: block;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    font-weight: bold; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.nav-links li a:hover {
+    text-decoration: underline; 
+}
+
+.blue-text strong {
+    color: midnightblue;
+}
+
+.blue-text {
+    color: cadetblue;
+}
+
+.welcome-message .name {
+    color: cadetblue;
+    font-size: 26px; 
+    font-weight: bold; 
+}
+
+.social-icon .fab.fa-github,
+.social-icon .fab.fa-linkedin {
+    font-size: 30px; 
+    transition: color 0.3s; 
+}
+
+.social-icon .fab.fa-github:hover,
+.social-icon .fab.fa-linkedin:hover {
+    color: cadetblue;
+}
+
+.resume-button {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.resume-button:hover {
+    background-color: cadetblue;
+}
+
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.welcome-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .photo-container {
+    float: right; 
+    margin-left: 20px; 
+  }
+  
+  
+  .photo-container img {
+    width: 200px; 
+  }
+  .profile-image {
+    position: absolute;
+    top: 50px; 
+    right: 400px; 
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+  }  
+  
